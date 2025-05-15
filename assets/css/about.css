@@ -1,0 +1,9 @@
+h1 {
+font-size: var(--136_CG);
+color: var(--mork_brun);
+font-family: CorGar;
+}
+.grid_2-1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
