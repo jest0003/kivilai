@@ -2,7 +2,11 @@ h1 {
 font-size: var(--136_CG);
 color: var(--mork_brun);
 font-family: CorGar;
-margin-left: 20px;
+margin-left: 10px;
+margin-bottom: 40px;
+}
+.trans_bg {
+    background-color: var(--trans_hvid);
 }
 p {
     font-family: worksans_r;
