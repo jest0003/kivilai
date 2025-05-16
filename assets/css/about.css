@@ -2,8 +2,27 @@ h1 {
 font-size: var(--136_CG);
 color: var(--mork_brun);
 font-family: CorGar;
+margin-left: 20px;
 }
-.grid_2-1 {
+p {
+    font-family: worksans_r;
+    font-size: var(--20);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: var(--mork_brun);
+}
+img {
+    margin-left: 20px;
+}
+*{
+    margin: 0;
+}
+@media (width >= 600px) {
+    body {
+        max-width: 1000px;
+    }
+    .grid_2-1 {
     display: grid;
     grid-template-columns: 3fr 2fr;
+}
 }
