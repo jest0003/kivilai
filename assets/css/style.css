@@ -56,7 +56,11 @@ html, body {height: 100%;}
         body {display: table-cell;
         vertical-align: middle;
     max-width: 600px;
+<<<<<<< HEAD
 background-color: var(--bg_color);}
+=======
+background-color: var(--gb_color);}
+>>>>>>> f96de4d04382d92a54e0848e25cb555cd10948c8
 
 @media (width >= 600px) {
     body {
