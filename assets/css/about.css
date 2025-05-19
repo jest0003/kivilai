@@ -17,14 +17,47 @@ margin-bottom: 40px;
 .max_460{
     max-width: 460px;
 }
-p, h2, h3 {
+p, h2, h3, select, input {
     margin-left: 20px;
     margin-bottom: 20px;
+}
+button {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.flex_end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.space_between {
+    display: flex;
+    justify-content: space-between;
+}
+.space_around {
+    display: flex;
+    justify-content: space-around;
+}
+/*drop down*/
+.custom-select {
+    position: relative;
+    font-family: worksans_r;
+    font-size: 18px;
+    background-color: var(--bg_color);
+    border-style: none;
+    cursor: pointer;
+    color: var(--mork_brun);
+}
+.select-selected {
+    background-color: var(--bg_color);
+    color: var(--mork_brun);
+    font-family: worksans_r;
 }
 #personlig_hilsen {
     display: block;
     min-width: 300px;
     min-height: 40px;
+    margin-bottom: 50px;
 }
 *{
     margin: 0;
@@ -40,5 +73,17 @@ p, h2, h3 {
 .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.produkt {
+ grid-column: 2/4;   
+}
+.drop_price {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+#pro_pic_1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 }
