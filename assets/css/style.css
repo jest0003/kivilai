@@ -38,7 +38,8 @@ html, body {height: 100%;}
         margin: auto;}
         body {display: table-cell;
         vertical-align: middle;
-    max-width: 600px;}
+    max-width: 600px;
+background-color: var(--gb_color);}
 
 @media (width >= 600px) {
     body {
