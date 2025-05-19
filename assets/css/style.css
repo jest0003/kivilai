@@ -45,6 +45,11 @@ h3 {
     size: var(--36);
     color: var(--mork_brun);
 }
+p {
+    font-family: worksans_r;
+    size: var(--18);
+    color: var(--mork_brun);
+}
 html, body {height: 100%;}
         html {display: table;
         margin: auto;}
