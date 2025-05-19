@@ -2,18 +2,29 @@ h1 {
 margin-left: 10px;
 margin-bottom: 40px;
 }
-.trans_bg {
+.trans_bg {display: block;
     background-color: var(--trans_hvid);
 }
-p {
-    font-family: worksans_r;
-    font-size: var(--20);
+.bg_box {
+    background-color: var(--bg_color);
+    margin: 20px;
+    padding: 20px;
+}
+.flex_r{
+    display: flex;
+
+}
+.max_460{
+    max-width: 460px;
+}
+p, h2, h3 {
     margin-left: 20px;
     margin-bottom: 20px;
-    color: var(--mork_brun);
 }
-img {
-    margin-left: 20px;
+#personlig_hilsen {
+    display: block;
+    min-width: 300px;
+    min-height: 40px;
 }
 *{
     margin: 0;
@@ -25,5 +36,9 @@ img {
     .grid_2-1 {
     display: grid;
     grid-template-columns: 3fr 2fr;
+}
+.grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 }
