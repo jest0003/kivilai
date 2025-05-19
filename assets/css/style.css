@@ -11,10 +11,10 @@
 
 
 /*tekst størrelse*/
---136_CG: 136px;
+--96_CG: 96px;
 --48: 48px;
 --36: 36px;
---20: 20px;
+--18: 18px;
 }
 @font-face {
 font-family: CorGar;
@@ -32,7 +32,7 @@ src: url(../fonts/CormorantGaramond-Bold.ttf)
     font-family: worksans_r;
     src: url(../fonts/WorkSans-Regular.ttf);
 }
-*{background-color: #F3EEE1;}
+*
 html, body {height: 100%;}
         html {display: table;
         margin: auto;}
