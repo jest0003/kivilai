@@ -1,0 +1,153 @@
+/* Kopier ikke delen mellem denne tekst og næste kommentar. */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f9f7f0;
+}
+/* Kopier ikke delen over denne kommentar.*/
+
+/* Her begynder Header CSS. */
+header {
+  background-color: var(--gb_color);
+}
+
+.headerIcons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1em;
+}
+
+.leftHeaderIcons a img,
+.rightHeaderIcons a img {
+  display: flex;
+  height: 30px;
+}
+
+.leftHeaderIcons,
+.rightHeaderIcons {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+
+.leftHeaderIcons {
+  justify-content: flex-start;
+}
+
+.rightHeaderIcons {
+  justify-content: flex-end;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.headerLogo img {
+  max-height: 4em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 3em 10em 2em;
+  gap: 1em;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 1em "worksans_m";
+  color: var(--mork_brun);
+}
+
+/* Her slutter Header CSS. */
+/* Her begynder Footer CSS. */
+
+footer {
+  background-color: var(--gb_color);
+}
+
+.footerContainer_1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 1em;
+}
+
+.footerInformation ul,
+.footerInformation a,
+.footerKontakt ul,
+.footerKontakt a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  font-family: worksans_r;
+  color: var(--mork_brun);
+}
+
+.footerInformation ul li:not(:last-child),
+.footerKontakt ul li:not(:last-child) {
+  padding: 0 0 1em 0;
+}
+
+.footerInformation h4,
+.footerKontakt h4 {
+  font-family: CorGar;
+  font-size: var(--36);
+  color: var(--mork_brun);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footerSignatur {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footerSignatur img {
+  height: auto;
+}
+
+.footerContainer_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.footerCopyright {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+  font-family: worksans_r;
+  color: var(--mork_brun);
+}
+
+.footerBetalingsmetoder {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  padding-right: 1em;
+}
+
+.footerBetalingsmetoder img {
+  display: inline-block;
+}
+
+/* Her slutter Footer CSS. */
+
+/* Kopier ikke denne del, den er kun med fordi header og footers bredde er nødt til at have et fundament at læne sig opad for at vises korrekt. */
+
+main {
+  min-width: 1000px;
+  background-color: #f9f7f0;
+}
