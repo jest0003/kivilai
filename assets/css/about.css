@@ -104,6 +104,7 @@ button {
     grid-column: 2/3;
     grid-row: 1/3;
     justify-content: center;
+    margin-right: 20px;
 }
 .order_pro_1 {
     order: 1;
