@@ -9,33 +9,41 @@
   </head>
   <body>
     <header></header>
-    <main>
-      <section class="trans_bg">
+    <main class="trans_bg">
+      <section>
         <h1>Din indkøbskurv</h1>
         <article class="grid_2-1">
           <div>
             <section class="grid_1-1-1 bg_box">
-              <img id="pro_pic_1" src="https://picsum.photos/200" alt="">
+              <img id="pro_pic_1" src="https://picsum.photos/200" alt="" />
               <div class="produkt">
                 <h3>Produktnavn</h3>
-                <p>Produktvalg <br>Guld/Sølv<br>Farve på sten/fjer</p>
+                <p>Produktvalg <br />Guld/Sølv<br />Farve på sten/fjer</p>
               </div>
-              <div class="flex_r drop_price flex_end"><select class="custom-select" style="width: 100px;" name="drop_down">
-                <option value="hojre">Højre</option>
-                <option value="venstre">Venstre</option>
-                <option value="par">Par</option>
-              </select>
-            <h3>pris Kr.</h3></div>
+              <div class="flex_r drop_price flex_end">
+                <select class="custom-select" style="width: 100px" name="drop_down">
+                  <option value="hojre">Højre</option>
+                  <option value="venstre">Venstre</option>
+                  <option value="par">Par</option>
+                </select>
+                <h3>pris Kr.</h3>
+              </div>
             </section>
           </div>
           <div class="bg_box max_460">
-            <div class="flex_r"><input id="gavevalg" type="checkbox" value="Tyngdekraften her er for let" /><h3 for="gavevalg">Gør det til en gave (+25 Kr.)</h3></div>
+            <div class="flex_r">
+              <input id="gavevalg" type="checkbox" value="gavevalg" />
+              <h3 for="gavevalg">Gør det til en gave (+25 Kr.)</h3>
+            </div>
             <p>Vi sørger for indpakning i gavepose.</p>
-            <p>  </p>
+            <p></p>
             <h3>Tilføj en personlig hilsen</h3>
             <p>Skriv din besked her - vi sørger for resten.</p>
-            <input id="personlig_hilsen" type="text">
-            <div class="flex_r space_between"><h2>Total</h2><h2>1999 Kr.</h2></div>
+            <input id="personlig_hilsen" type="text" />
+            <div class="flex_r space_between">
+              <h2>Total</h2>
+              <h2>samlet pris Kr.</h2>
+            </div>
           </div>
         </article>
         <div class="flex_r space_around"><button>FORTSÆT MED AT HANDLE</button><button>TIL KASSEN</button></div>

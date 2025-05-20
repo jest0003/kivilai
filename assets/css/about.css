@@ -2,13 +2,16 @@ h1 {
 margin-left: 10px;
 margin-bottom: 40px;
 }
+/*fixed bg*/
 .trans_bg {display: block;
-    background-color: var(--trans_hvid);
+    background-image: url(../img/bg_pic.png);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
 }
 .bg_box {
     background-color: var(--bg_color);
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 .flex_r{
     display: flex;
@@ -28,7 +31,7 @@ button {
 .flex_end {
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: last baseline;
 }
 .space_between {
     display: flex;
@@ -47,6 +50,7 @@ button {
     border-style: none;
     cursor: pointer;
     color: var(--mork_brun);
+    border-bottom: 1px solid var(--mork_brun);
 }
 .select-selected {
     background-color: var(--bg_color);
@@ -57,7 +61,7 @@ button {
     display: block;
     min-width: 300px;
     min-height: 40px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 *{
     margin: 0;
