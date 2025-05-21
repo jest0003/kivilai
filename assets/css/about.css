@@ -90,6 +90,9 @@ a {
     padding-bottom: 50px;
     justify-content: center;
 }
+.circle_icon {
+    max-width: 20px;
+}
 .space {
     margin: 0px;
 }
@@ -114,6 +117,13 @@ max-width: 300px;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.overlay_tekst {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    color: var(--hvid);
+    border-top: 2px solid white;
 }
 *{
     margin: 0;
