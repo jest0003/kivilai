@@ -67,9 +67,33 @@
         <a href="index.html">Dragon Fly Ørering (lang)</a>
       </div>
 
-      <div class="productImageGallery">
-        <img src="/assets/kamilla-images/Produktbillede.png" alt="" />
+      <!-- Slideshow med produktbillede starter her. -->
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+        </div>
+
+        <!-- Knapperne til højre og venstre -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
+      <br />
+
+      <!-- Har ikke taget disse punkter med fra W3 guiden
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div> -->
+
+      <!--   <div class="productImageGallery">
+        <img src="/assets/kamilla-images/Produktbillede.png" alt="" />
+      </div> -->
       <div class="productInfo_1">
         <div class="productTitle"><h1>Dragon Fly Ørering (lang)</h1></div>
         <div class="productPrice"><h1 id="pris">650 kr</h1></div>
@@ -124,6 +148,26 @@
           Øreringen er 1,9 cm bred og 8-9 cm lang. Fås i flere længder.
         </p>
       </div>
+      <!-- Produktgalleri starter her-->
+      <div class="gallery-wrap">
+        <img id="backButton" src="/assets/kamilla-images/gold.png" alt="" />
+
+        <div class="gallery">
+          <div>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          </div>
+          <div>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+            <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          </div>
+        </div>
+        <img id="nextButton" src="/assets/kamilla-images/gold.png" alt="" />
+      </div>
+
+      <!-- Produktgalleri slutter her-->
     </main>
 
     <!-- Main slutter her -->

@@ -78,3 +78,57 @@ metals.forEach((metal) => {
     console.log(this);
   });
 });
+
+/* Sektionen herunder styrer scrollbaren på det nederste galleri. Har fulgt guiden på Youtube af GreatStack: https://www.youtube.com/watch?v=gzXyRa7jwk4*/
+
+let scrollContainer = document.querySelector(".gallery");
+let backButton = document.querySelector("#backButton");
+let nextButton = document.querySelector("#nextButton");
+
+scrollContainer.addEventListener("wheel", (evt) => {
+  evt.preventDefault();
+  scrollContainer.scrollLeft += evt.deltaY;
+});
+
+nextButton.addEventListener("click", () => {
+  scrollContainer.scrollLeft += 599;
+});
+
+backButton.addEventListener("click", () => {
+  scrollContainer.scrollLeft -= 599;
+});
+
+/* Sektionen herunder styrer produktbillederne i toppen. Den er bygget med guiden på https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  /* for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  } */
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
