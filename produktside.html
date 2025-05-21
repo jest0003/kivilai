@@ -68,85 +68,87 @@
       </div>
 
       <!-- Slideshow med produktbillede starter her. -->
+      <div class="desktopContainer">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+          </div>
 
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+          <div class="mySlides fade">
+            <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+          </div>
+
+          <!-- Knapperne til højre og venstre -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
 
-        <div class="mySlides fade">
-          <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
-        </div>
-
-        <!-- Knapperne til højre og venstre -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
-
-      <!-- Har ikke taget disse punkter med fra W3 guiden
+        <!-- Har ikke taget disse punkter med fra W3 guiden
       <div style="text-align: center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div> -->
 
-      <!--   <div class="productImageGallery">
+        <!--   <div class="productImageGallery">
         <img src="/assets/kamilla-images/Produktbillede.png" alt="" />
       </div> -->
-      <div class="productInfo_1">
-        <div class="productTitle"><h1>Dragon Fly Ørering (lang)</h1></div>
-        <div class="productPrice"><h1 id="pris">650 kr</h1></div>
-      </div>
-      <div class="productInfo productInfo_2">
-        <div id="colorDesc">Forgyldt sterling sølv</div>
-        <div class="colorPicker">
-          <img
-            class="metal"
-            data-description="Sterling sølv"
-            id="soelv"
-            src="/assets/kamilla-images/silver.png"
-            alt="Sterling sølv"
-          />
-          <img
-            class="metal selected_3"
-            data-description="Forgyldt sterling sølv"
-            id="guld"
-            src="/assets/kamilla-images/gold.png"
-            alt="Forgyldt sterling sølv"
-          />
+        <div class="infoContainer">
+          <div class="productInfo_1">
+            <div class="productTitle"><h1>Dragon Fly Ørering (lang)</h1></div>
+            <div class="productPrice"><h1 id="pris">650 kr</h1></div>
+          </div>
+          <div class="productInfo productInfo_2">
+            <div id="colorDesc">Forgyldt sterling sølv</div>
+            <div class="colorPicker">
+              <img
+                class="metal"
+                data-description="Sterling sølv"
+                id="soelv"
+                src="/assets/kamilla-images/silver.png"
+                alt="Sterling sølv"
+              />
+              <img
+                class="metal selected_3"
+                data-description="Forgyldt sterling sølv"
+                id="guld"
+                src="/assets/kamilla-images/gold.png"
+                alt="Forgyldt sterling sølv"
+              />
+            </div>
+          </div>
+          <div class="productInfo productInfo_3">
+            <div class="quantityDescription">Vælg ørering som</div>
+            <div class="quantityPicker">
+              <button class="quantButton selected" id="styk">Styk</button
+              ><button class="quantButton" id="par">Par</button>
+            </div>
+          </div>
+          <div class="productInfo productInfo_4">
+            <div class="sideDescription">Vælg side</div>
+            <div class="sidePicker">
+              <button class="sideButton" id="venstre">Venstre</button
+              ><button class="sideButton selected" id="hoejre">Højre</button>
+            </div>
+          </div>
+          <div class="productActions">
+            <button id="buyButton">Tilføj til kurv</button>
+            <button id="favButton"><img src="/assets/kamilla-images/Favorite.png" alt="" /></button>
+          </div>
+          <div class="deliveryInfo">Gratis levering over 276 kr | 3-6 dages levering</div>
+          <div class="productInfo_5">
+            <h2 class="infoSelector selected_2" id="beskrivelse">Beskrivelse</h2>
+            <h2 class="infoSelector" id="produktpleje">Produktpleje</h2>
+          </div>
+          <div class="productInfo_6">
+            <p id="productDescription">
+              Eksklusiv ørering med Kivilais signaturlås, som sikrer, at det smukke design vender
+              fremad, så det tydeligt kan ses. <br /><br />Øreringen er hypoallergenisk og
+              nikkelfri, og fås i sterling sølv eller forgyldt sterling sølv. <br /><br />
+              Øreringen er 1,9 cm bred og 8-9 cm lang. Fås i flere længder.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="productInfo productInfo_3">
-        <div class="quantityDescription">Vælg ørering som</div>
-        <div class="quantityPicker">
-          <button class="quantButton selected" id="styk">Styk</button
-          ><button class="quantButton" id="par">Par</button>
-        </div>
-      </div>
-      <div class="productInfo productInfo_4">
-        <div class="sideDescription">Vælg side</div>
-        <div class="sidePicker">
-          <button class="sideButton" id="venstre">Venstre</button
-          ><button class="sideButton selected" id="hoejre">Højre</button>
-        </div>
-      </div>
-      <div class="productActions">
-        <button id="buyButton">Tilføj til kurv</button>
-        <button id="favButton"><img src="/assets/kamilla-images/Favorite.png" alt="" /></button>
-      </div>
-      <div class="deliveryInfo">Gratis levering over 276 kr | 3-6 dages levering</div>
-      <div class="productInfo_5">
-        <h2 class="infoSelector selected_2" id="beskrivelse">Beskrivelse</h2>
-        <h2 class="infoSelector" id="produktpleje">Produktpleje</h2>
-      </div>
-      <div class="productInfo_6">
-        <p id="productDescription">
-          Eksklusiv ørering med Kivilais signaturlås, som sikrer, at det smukke design vender
-          fremad, så det tydeligt kan ses. <br /><br />Øreringen er hypoallergenisk og nikkelfri, og
-          fås i sterling sølv eller forgyldt sterling sølv. <br /><br />
-          Øreringen er 1,9 cm bred og 8-9 cm lang. Fås i flere længder.
-        </p>
       </div>
       <!-- Produktgalleri starter her-->
       <div class="gallery-wrap">

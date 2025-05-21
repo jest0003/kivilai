@@ -68,6 +68,7 @@ h2 {
 .breadCrumbs {
   background-color: #f9f7f0;
   padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .breadCrumbs a {
@@ -204,63 +205,14 @@ button img {
   margin-right: 1rem;
 }
 
-/* Produktgalleri_2 starter her */
-/* .gallery_2 {
-  display: flex;
-  width: 599px;
-  overflow-x: scroll;
-  scrollbar-width: none;
-}
-
-.gallery_2 span {
-  background-color: #f9f7f0;
-}
-
-.gallery_2 div {
-  display: grid;
-  width: 100%;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  flex: none;
-}
-
-.gallery_2 div img {
-  width: 100%;
-}
-
-.gallery_2 div img:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
-.gallery_2::-webkit-scrollbar {
-  display: none;
-}
-
-.gallery-wrap_2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1rem 2rem 0;
-  padding-bottom: 2rem;
-}
-
-#backButton_2,
-#nextButton_2 {
-  width: 1rem;
-  cursor: pointer;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0;
-  margin-right: 1rem;
-}
- */
+/* Slideshow med de primære produktbilleder starter her */
 
 .slideshow-container {
   box-sizing: border-box;
   max-width: 599px;
   position: relative;
-  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .mySlides {
@@ -305,5 +257,19 @@ button img {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* Tilpasning til større skærmstørrelser */
+
+@media (width >= 600px) {
+  .desktopContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .prev,
+  .next {
+    display: none;
   }
 }
