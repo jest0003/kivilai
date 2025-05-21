@@ -1,3 +1,5 @@
+/* Hamburger menu baseret på denne tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc */
+
 /* Her begynder Header CSS. */
 
 .headerIcons,
@@ -90,7 +92,7 @@ nav {
   text-decoration: none;
   color: #f9f7f0;
   background-color: var(--mork_brun);
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .headerLogo {
@@ -103,8 +105,8 @@ nav {
 }
 
 .headerLogo img {
-  max-height: 2em;
-  padding-bottom: 1em;
+  max-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 @media (width >= 600px) {
@@ -120,14 +122,14 @@ nav {
   .headerIcons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 1em;
+    padding: 1rem;
     margin: 0;
   }
 
   .leftHeaderIcons a img,
   .rightHeaderIcons a img {
     display: flex;
-    height: 30px;
+    height: 1.5rem;
   }
 
   .leftHeaderIcons,
@@ -149,12 +151,19 @@ nav {
     max-height: 4em;
   }
 
+  .headerLinks {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
   nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 3em 10em 2em;
-    gap: 1em;
+    padding: 1rem 8rem 1rem;
+    gap: 3rem;
   }
 
   nav li a {
@@ -169,7 +178,8 @@ nav {
 
 /* Her begynder Footer CSS. */
 
-footer {
+footer,
+footer div p {
   background-color: var(--gb_color);
 }
 
@@ -182,6 +192,7 @@ footer {
   padding: 0;
   font-family: worksans_r;
   color: var(--mork_brun);
+  font-size: 18px;
 }
 
 .footerInformation h4,
@@ -237,6 +248,11 @@ footer {
     margin-bottom: 1em;
   }
 
+  .footerInformation a,
+  .footerKontakt a {
+    font-size: 18px;
+  }
+
   .footerSignatur {
     display: flex;
     align-items: center;
@@ -244,6 +260,7 @@ footer {
   }
 
   .footerSignatur img {
+    display: flex;
     max-height: 100px;
   }
 
@@ -258,6 +275,7 @@ footer {
     padding-left: 1em;
     display: flex;
     justify-content: flex-start;
+    font-size: 14px;
   }
 
   .footerBetalingsmetoder {
