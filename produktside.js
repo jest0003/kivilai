@@ -98,7 +98,7 @@ backButton.addEventListener("click", () => {
   scrollContainer.scrollLeft -= 599;
 });
 
-/* Sektionen herunder styrer produktbillederne i toppen. Den er bygget med guiden på https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* Sektionen herunder styrer produktbillederne i toppen. Den er bygget med guiden på https://www.w3schools.com/howto/howto_js_slideshow.asp og en masse ChatGPT*/
 
 let slideIndex = 1;
 showSlides(slideIndex);

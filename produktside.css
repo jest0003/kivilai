@@ -40,19 +40,8 @@ main {
 main div,
 div p {
   background-color: #f9f7f0;
-  padding-right: 1rem;
-}
-
-.productImageGallery {
-  max-width: 599px;
-  text-align: center;
-  padding-top: 2rem;
-  padding-right: 2rem;
-}
-
-.productImageGallery img {
-  width: 100%;
-  justify-self: center;
+  margin-right: 1rem;
+  /* padding-right: 1rem; */
 }
 
 h1 {
@@ -172,6 +161,7 @@ button img {
   grid-template-columns: auto auto auto;
   gap: 10px;
   flex: none;
+  margin-bottom: 2rem;
 }
 
 .gallery div img {
@@ -190,17 +180,17 @@ button img {
 .gallery-wrap {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 1rem 2rem 0;
-  padding-bottom: 2rem;
+  justify-content: space-between;
+  margin-right: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 #backButton,
 #nextButton {
-  width: 1rem;
+  display: inline-flex;
+  height: 20px;
   cursor: pointer;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  background-color: #f9f7f0;
   margin-left: 0;
   margin-right: 1rem;
 }
@@ -213,6 +203,7 @@ button img {
   position: relative;
   margin-left: 0;
   margin-right: 0;
+  z-index: 0;
 }
 
 .mySlides {
@@ -243,7 +234,7 @@ button img {
 
 .prev:hover,
 .next:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(82, 42, 19, 0.8);
 }
 
 .fade {
@@ -266,10 +257,16 @@ button img {
   .desktopContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
   }
 
   .prev,
   .next {
     display: none;
+  }
+
+  .gallery,
+  .gallery-wrap {
+    max-width: 1200px;
   }
 }

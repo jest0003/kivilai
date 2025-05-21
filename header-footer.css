@@ -20,7 +20,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
+  z-index: 1;
 }
 
 .offScreenMenu.active {
@@ -34,10 +35,11 @@ nav {
 }
 
 .hamburgerMenu {
-  height: 2em;
-  width: 2em;
+  height: 2rem;
+  width: 2rem;
   margin-left: auto;
   position: relative;
+  margin-right: 1rem;
 }
 
 .hamburgerMenu span {
@@ -50,6 +52,8 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s ease;
+  z-index: 2;
+  margin-top: 0.5rem;
 }
 
 .hamburgerMenu.active {
@@ -85,6 +89,7 @@ nav {
   font-family: worksans_m;
   font-size: 28px;
   background-color: var(--mork_brun);
+  z-index: 1;
 }
 
 .offScreenMenu ul li a,
@@ -93,6 +98,7 @@ nav {
   color: #f9f7f0;
   background-color: var(--mork_brun);
   padding: 0.5rem;
+  z-index: 1;
 }
 
 .headerLogo {
@@ -106,7 +112,7 @@ nav {
 
 .headerLogo img {
   max-height: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 @media (width >= 600px) {
@@ -189,19 +195,23 @@ footer div p {
 .footerKontakt a {
   list-style-type: none;
   text-decoration: none;
-  padding: 0;
+  padding-left: 0.5rem;
   font-family: worksans_r;
   color: var(--mork_brun);
   font-size: 18px;
 }
 
+.footerInformation ul li,
+.footerKontakt ul li {
+  padding-bottom: 1rem;
+}
+
 .footerInformation h4,
 .footerKontakt h4 {
   font-family: CorGar;
-  font-size: var(--20);
+  font-size: 28px;
   color: var(--mork_brun);
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding-left: 1rem;
 }
 
 .footerSignatur img {
@@ -215,7 +225,9 @@ footer div p {
 .footerCopyright {
   font-family: worksans_r;
   color: var(--mork_brun);
-  font-size: 12px;
+  font-size: 14px;
+  padding-left: 1rem;
+  text-align: center;
 }
 
 .footerBetalingsmetoder {
