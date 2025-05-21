@@ -34,6 +34,13 @@ flex-direction: row;
     justify-content: center;
     margin: auto;
 }
+.marg_l_3 {
+    margin-left: 3px;
+}
+.marg_r_3 {
+    margin-right: 3px;
+    
+}
 p, h2, h3, select, input {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -41,6 +48,11 @@ p, h2, h3, select, input {
 button {
     padding: 5px;
     margin-bottom: 20px;
+}
+a {
+    font-family: worksans_r;
+    text-decoration: none;
+    color: var(--mork_brun);
 }
 .flex_end {
     display: flex;
@@ -80,6 +92,28 @@ button {
 }
 .space {
     margin: 0px;
+}
+.grid_1-1-1_gap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: 25px;
+}
+/*Billeder overlay*/
+.container {
+position: relative;
+width: 100%;
+max-width: 300px;
+}
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 *{
     margin: 0;
