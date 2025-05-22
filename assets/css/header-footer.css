@@ -327,5 +327,5 @@ footer div p {
 main {
   width: 100%;
   min-width: 200px;
-  background-color: #f9f7f0;
+  background-color: var(--bg_color);
 }
