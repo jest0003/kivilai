@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/header-footer.css" />
+    <link rel="stylesheet" href="/assets/css/produktside.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="offScreenMenu">
+        <ul>
+          <li><a href="index.html">Smykker</a></li>
+          <li><a href="index.html">Kollektioner</a></li>
+          <li><a href="index.html">Inspiration</a></li>
+          <li><a href="index.html">Kontakt</a></li>
+          <li><a href="index.html">Søg</a></li>
+        </ul>
+      </div>
+
+      <nav>
+        <div class="headerIcons_2">
+          <a href=""><img src="/assets/kamilla-images/Heart-icon.png" alt="Favorit-ikon" /></a>
+          <a href=""><img src="/assets/kamilla-images/Basket-icon.png" alt="Varekurv-ikon" /></a>
+        </div>
+        <div class="hamburgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <div class="headerIcons">
+        <div class="leftHeaderIcons">
+          <a href="index.html"
+            ><img src="/assets/kamilla-images/Account-icon.png" alt="Konto-ikon"
+          /></a>
+          <a href="index.html"
+            ><img src="/assets/kamilla-images/Search-icon.png" alt="Søg-ikon"
+          /></a>
+        </div>
+        <div class="rightHeaderIcons">
+          <a href=""><img src="/assets/kamilla-images/Heart-icon.png" alt="Favorit-ikon" /></a>
+          <a href=""><img src="/assets/kamilla-images/Basket-icon.png" alt="Varekurv-ikon" /></a>
+        </div>
+      </div>
+      <div class="headerLogo">
+        <a href="index.html"
+          ><img src="/assets/kamilla-images/Kivilai-logo.png" alt="Kivilai-logo"
+        /></a>
+      </div>
+      <nav class="headerLinks">
+        <ul>
+          <li><a href="index.html">Smykker</a></li>
+          <li><a href="index.html">Kollektioner</a></li>
+          <li><a href="index.html">Inspiration</a></li>
+          <li><a href="index.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main starter her-->
+
+    <main>
+      <div class="breadCrumbs">
+        <a href="index.html">Smykker</a> / <a href="index.html">Øreringe</a> /
+        <a href="index.html">Dragon Fly Ørering (lang)</a>
+      </div>
+
+      <!-- Slideshow med produktbillede starter her. -->
+      <div class="desktopContainer">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="/assets/kamilla-images/Produktbillede.png" style="width: 100%" />
+          </div>
+
+          <!-- Knapperne til højre og venstre -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Slideshow med produktbillede slutter her. -->
+
+        <div class="infoContainer">
+          <div class="productInfo_1">
+            <div class="productTitle"><h1>Dragon Fly Ørering (lang)</h1></div>
+            <div class="productPrice"><h1 id="pris">650 kr</h1></div>
+          </div>
+          <div class="productInfo productInfo_2">
+            <div id="colorDesc">Forgyldt sterling sølv</div>
+            <div class="colorPicker">
+              <img
+                class="metal"
+                data-description="Sterling sølv"
+                id="soelv"
+                src="/assets/kamilla-images/silver.png"
+                alt="Sterling sølv"
+              />
+              <img
+                class="metal selected_3"
+                data-description="Forgyldt sterling sølv"
+                id="guld"
+                src="/assets/kamilla-images/gold.png"
+                alt="Forgyldt sterling sølv"
+              />
+            </div>
+          </div>
+          <div class="productInfo">
+            <div class="quantityDescription">Vælg ørering som</div>
+            <div class="quantityPicker">
+              <button class="quantButton selected" id="styk">Styk</button
+              ><button class="quantButton" id="par">Par</button>
+            </div>
+          </div>
+          <div class="productInfo">
+            <div class="sideDescription">Vælg side</div>
+            <div class="sidePicker">
+              <button class="sideButton" id="venstre">Venstre</button
+              ><button class="sideButton selected" id="hoejre">Højre</button>
+            </div>
+          </div>
+
+          <div class="productActions">
+            <button id="buyButton">Tilføj til kurv</button>
+            <button id="favButton"><img src="/assets/kamilla-images/Favorite.png" alt="" /></button>
+          </div>
+          <div class="deliveryInfo">Gratis levering over 276 kr | 3-6 dages levering</div>
+          <div class="productInfo_5">
+            <h2 class="infoSelector selected_2" id="beskrivelse">Beskrivelse</h2>
+            <h2 class="infoSelector" id="produktpleje">Produktpleje</h2>
+          </div>
+          <div class="productInfo_6">
+            <p id="productDescription">
+              Eksklusiv ørering med Kivilais signaturlås, som sikrer, at det smukke design vender
+              fremad, så det tydeligt kan ses. <br /><br />Øreringen er hypoallergenisk og
+              nikkelfri, og fås i sterling sølv eller forgyldt sterling sølv. <br /><br />
+              Øreringen er 1,9 cm bred og 8-9 cm lang. Fås i flere længder.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Produktgalleri starter her-->
+      <div class="gallery-wrap">
+        <div class="Anbefalet">
+          <h2>Anbefalet for dig</h2>
+        </div>
+        <div class="AnbefaledeProd">
+          <img id="backButton" src="/assets/kamilla-images/left-arrow.webp" alt="Pil til venstre" />
+          <img id="nextButton" src="/assets/kamilla-images/right-arrow.webp" alt="Pil til højre" />
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+        </div>
+        <div>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+          <span><img src="/assets/kamilla-images/Produktbillede.png" alt="" /></span>
+        </div>
+      </div>
+
+      <!-- Produktgalleri slutter her-->
+    </main>
+
+    <!-- Main slutter her -->
+
+    <footer>
+      <div class="footerContainer_1">
+        <div class="footerInformation">
+          <h4>Information</h4>
+          <ul>
+            <li>
+              <a href="">Om Kivilai</a>
+            </li>
+            <li>
+              <a href="">Forhandlere</a>
+            </li>
+            <li>
+              <a href="">Handelsvilkår & Reklamation</a>
+            </li>
+            <li>
+              <a href="">Produktpleje</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerKontakt">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>
+              <a href="">Kontakt Kivilai</a>
+            </li>
+            <li>
+              <a href="">Instagram</a>
+            </li>
+            <li>
+              <a href="">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footerSignatur">
+          <img src="/assets/kamilla-images/Kivilai-signature.png" alt="Kivilais signatur" />
+        </div>
+      </div>
+      <div class="footerContainer_2">
+        <div class="footerCopyright">
+          <p>2025© Kivilai. Alle rettigheder forbeholdes.</p>
+        </div>
+        <div class="footerBetalingsmetoder">
+          <img src="/assets/kamilla-images/payment-method-visa.png" alt="Visa logo" />
+          <img src="/assets/kamilla-images/payment-method-applepay.png" alt="ApplePay logo" />
+          <img src="/assets/kamilla-images/payment-method-paypal.png" alt="PayPal logo" />
+          <img src="/assets/kamilla-images/payment-method-mastercard.png" alt="MasterCard logo" />
+          <img src="/assets/kamilla-images/payment-method-maestro.png" alt="Maestro logo" />
+        </div>
+      </div>
+    </footer>
+    <script src="/header-footer.js"></script>
+    <script src="/produktside.js"></script>
+  </body>
+</html>
