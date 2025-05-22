@@ -218,7 +218,8 @@ button img {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #f9f7f0;
+  background-color: rgba(82, 42, 19, 0.2);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
