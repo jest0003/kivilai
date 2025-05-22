@@ -1,0 +1,61 @@
+
+  .forhandler-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .forhandler-card {
+    padding: 1.5rem;
+    margin-bottom: var(--afstand);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #00000010;
+  }
+  
+  .forhandler-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: var(--mork_brun);
+  }
+  
+  .forhandler-card p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .forhandler-card img {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .forhandler-wrapper {
+    background-color: #f9f5ec;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .forhandler-card {
+    background-color: #f3eee1;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #00000010;
+  }
+
+  @media (width >= 600px) {
+    .forhandler-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+  
+    .forhandler-wrapper > h1 {
+      grid-column: span 2;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
