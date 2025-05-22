@@ -4,7 +4,7 @@
 
 header,
 footer {
-  background-color: var(--gb_color);
+  background-color: var(--bg_color);
 }
 
 html,

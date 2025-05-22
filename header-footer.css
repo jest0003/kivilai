@@ -7,6 +7,20 @@
   display: none;
 }
 
+.headerIcons_2 {
+  display: flex;
+  margin-right: auto;
+  position: relative;
+  margin-left: 1rem;
+  gap: 1rem;
+}
+
+.headerIcons_2 img {
+  padding-top: 1rem;
+  height: 22px;
+  width: 22px;
+}
+
 .offScreenMenu {
   background-color: var(--mork_brun);
   height: 100vh;
@@ -31,7 +45,7 @@
 nav {
   padding: 0.5 1em;
   display: flex;
-  background-color: var(--gb_color);
+  background-color: var(--bg_color);
 }
 
 .hamburgerMenu {
@@ -71,7 +85,7 @@ nav {
 .hamburgerMenu.active span:nth-child(1) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background-color: var(--gb_color);
+  background-color: var(--bg_color);
 }
 
 .hamburgerMenu.active span:nth-child(2) {
@@ -81,7 +95,7 @@ nav {
 .hamburgerMenu.active span:nth-child(3) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  background-color: var(--gb_color);
+  background-color: var(--bg_color);
 }
 
 .offScreenMenu ul {
@@ -117,7 +131,7 @@ nav {
 
 @media (width >= 600px) {
   header {
-    background-color: var(--gb_color);
+    background-color: var(--bg_color);
   }
 
   .hamburgerMenu,
@@ -130,6 +144,10 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
     margin: 0;
+  }
+
+  .headerIcons_2 {
+    display: none;
   }
 
   .leftHeaderIcons a img,
@@ -186,7 +204,7 @@ nav {
 
 footer,
 footer div p {
-  background-color: var(--gb_color);
+  background-color: var(--bg_color);
 }
 
 .footerInformation ul,
