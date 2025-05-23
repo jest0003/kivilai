@@ -1,0 +1,66 @@
+.trans_bg {
+  background-color: var(--trans_hvid);
+  padding: 3rem;
+}
+
+.box_bg {
+  background-color: var(--bg_color);
+  margin: 10px;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  margin-bottom: 7rem;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+.margin_left {
+  margin-left: 3rem;
+}
+
+.margin_right {
+  margin-right: 3rem;
+}
+
+.divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 7rem;
+}
+
+ul,
+ol {
+  padding-left: 1.5rem; /* giver fin indrykning */
+  margin-bottom: 1rem;
+}
+
+ul li,
+ol li {
+  font-family: "worksans_r";
+  font-size: var(--18);
+  color: var(--mork_brun);
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+@media (width >=600px) {
+  .hb-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+
+  .t-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
