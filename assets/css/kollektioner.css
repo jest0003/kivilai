@@ -1,0 +1,154 @@
+/* /* .texture {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.oculus-smykke {
+  position: absolute;
+  top: -74%;
+  left: -63%;
+  width: 200%;
+  z-index: 2;
+  background-color: transparent;
+} 
+
+/* til hvis det er 2 forskellige billeder
+.cesar-smykke {
+  position: absolute;
+  top: -160%;
+  left: -40%;
+  width: 210%;
+  z-index: 2;
+  background-color: transparent;
+} */
+
+.cesar-smykke {
+  background-color: transparent;
+}
+
+.dragon-smykke {
+  position: absolute;
+  top: -60%;
+  left: -40%;
+  width: 170%;
+  z-index: 2;
+  background-color: transparent;
+}
+
+button {
+  background-color: #F3EEE1;
+  color: var(--mork_brun);
+  border-radius: 15px;
+  border: 2px solid var(--mork_brun);
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  margin: 1rem 0;
+  margin-top: 4em;
+  text-decoration: none;
+  cursor: pointer;
+  transition:  0.6s ease;
+}
+
+button:hover {
+  background-color: var(--mork_brun);
+  color: #F3EEE1;
+  transition:  0.4s ease;
+}
+
+img {
+    transition: transform 0.4s ease;
+    background-color: transparent;
+}
+
+img:hover{
+  transform: scale(1.03);
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+
+img {
+  width: 90%;
+}
+
+/* 
+.text {
+  background-color: transparent;
+} */
+
+text {
+  margin-top: 2em;
+}
+
+.divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+}
+
+.dragon-text {
+    background-color: transparent;
+}
+
+.overlay-oculus {
+  position: relative;
+  width: 30%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.overlay-cesar {
+  position: relative;
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.overlay-dragon {
+  position: relative;
+  width: 30%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+    font-family: CorGar;
+    font-weight: 600;
+    text-align: center;
+    margin: 3em;
+    font-size: 250%;
+    color: var(--mork_brun);
+}
+
+h3 {
+    font-family: CorGar;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 200%;
+    color: var(--mork_brun);
+}
+
+p {
+    font-family: worksans_l;
+    text-align: left;
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    color: var(--mork_brun);
+    line-height: 1.5em;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
