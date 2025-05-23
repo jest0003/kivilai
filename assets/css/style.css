@@ -29,6 +29,10 @@ src: url(../fonts/CormorantGaramond-Bold.ttf)
     font-family: worksans_r;
     src: url(../fonts/WorkSans-Regular.ttf);
 }
+@font-face {
+    font-family: worksans_l;
+    src: url(../fonts/WorkSans-LightItalic.ttf);
+}
 *
 h1 {
     font-family: CorGar;
