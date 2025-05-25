@@ -1,0 +1,181 @@
+body {
+  vertical-align: top;
+}
+
+main {
+  background-color: #f9f7f0;
+}
+
+.lottie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lottie img {
+  height: 8rem;
+}
+
+.spanBaggrund_1 {
+  background-image: url(/assets/img/maane_hvid.webp);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.spanBaggrund_2 {
+  background-image: url(/assets/img/maane_hvid.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.spanBaggrund_3 {
+  background-image: url(/assets/kamilla-images/sand.webp);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.udvalgteSmykker,
+.gaveideer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.udvalgteSmykker img,
+.gaveideer img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  z-index: 2;
+  position: relative;
+}
+
+.udvalgteSmykker a:nth-of-type(1) {
+  transform: translate(1rem, -1rem) scale(0.9);
+}
+
+.udvalgteSmykker a:nth-of-type(2) {
+  transform: translate(1rem, 11rem);
+  opacity: 0;
+}
+
+.udvalgteSmykker a:nth-of-type(3) {
+  transform: translate(-1rem, -2rem) rotate(10deg);
+}
+
+.udvalgteSmykker a:nth-of-type(4) {
+  transform: translate(1rem, -2rem) rotate(-20deg);
+}
+
+.udvalgteSmykker a:nth-of-type(5) {
+  transform: translate(4rem, -8rem) scale(2);
+}
+
+.udvalgteSmykker a:nth-of-type(6) {
+  transform: translate(-1rem, -3rem) rotate(10deg) scale(0.9);
+}
+
+#udvalgteTekst {
+  z-index: 1;
+}
+
+.buttonContainer_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: rgba(82, 42, 19, 0);
+  color: var(--mork_brun);
+  border-radius: 15px;
+  border: 2px solid var(--guld);
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  margin-top: -2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+  text-transform: uppercase;
+}
+
+.videosekvens {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.videosekvens img {
+  width: 100%;
+}
+
+.deler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deler img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.gaveideer a:nth-of-type(1) {
+  transform: translate(4rem, -3rem);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.gaveideer a:nth-of-type(2) {
+  transform: translate(0, -2rem) scale(1.2);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.gaveideer a:nth-of-type(3) {
+  transform: translate(-0.5rem, -2rem) scale(0.8);
+  grid-column: 3;
+  grid-row: span 2;
+}
+
+@media (width <= 450px) {
+}
+
+@media (width >= 600px) {
+  main div {
+    margin: 1rem;
+  }
+
+  .spanBaggrund_1,
+  .spanBaggrund_2,
+  .spanBaggrund_3 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+  }
+
+  .udvalgteSmykker,
+  .gaveideer {
+    margin: auto;
+
+    max-width: 599px;
+  }
+
+  .deler img {
+    width: 70%;
+    padding: 1rem;
+  }
+}

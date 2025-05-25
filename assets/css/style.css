@@ -1,68 +1,74 @@
 :root {
-/*Farver*/
---mork_brun: #522A13;
---hvid: #FFFFFF;
---trans_hvid:#ffffff76;
---guld: #BD8F2C;
---bg_color: #F3EEE1 ;
+  /*Farver*/
+  --mork_brun: #522a13;
+  --hvid: #ffffff;
+  --trans_hvid: #ffffff76;
+  --guld: #bd8f2c;
+  --bg_color: #f3eee1;
 
-
-/*tekst størrelse*/
---96_CG: 96px;
---48: 48px;
---36: 36px;
---18: 18px;
+  /*tekst størrelse*/
+  --96_CG: 96px;
+  --48: 48px;
+  --36: 36px;
+  --18: 18px;
 }
 @font-face {
-font-family: CorGar;
-src: url(../fonts/CormorantGaramond-Bold.ttf)
+  font-family: CorGar;
+  src: url(../fonts/CormorantGaramond-Bold.ttf);
 }
 @font-face {
-    font-family: worksans_b;
-    src: url(../fonts/WorkSans-Bold.ttf);
+  font-family: worksans_b;
+  src: url(../fonts/WorkSans-Bold.ttf);
 }
 @font-face {
-    font-family: worksans_m;
-    src: url(../fonts/WorkSans-Medium.ttf);
+  font-family: worksans_m;
+  src: url(../fonts/WorkSans-Medium.ttf);
 }
 @font-face {
-    font-family: worksans_r;
-    src: url(../fonts/WorkSans-Regular.ttf);
+  font-family: worksans_r;
+  src: url(../fonts/WorkSans-Regular.ttf);
 }
 @font-face {
-    font-family: worksans_l;
-    src: url(../fonts/WorkSans-LightItalic.ttf);
+  font-family: worksans_l;
+  src: url(../fonts/WorkSans-LightItalic.ttf);
 }
-*
-h1 {
-    font-family: CorGar;
-    size: var(--96_CG);
-    color: var(--mork_brun);
+* h1 {
+  font-family: CorGar;
+  size: var(--96_CG);
+  color: var(--mork_brun);
 }
 h2 {
-    font-family: worksans_b;
-    size: var(--48);
-    color: var(--mork_brun);
+  font-family: worksans_b;
+  size: var(--48);
+  color: var(--mork_brun);
 }
 h3 {
-    font-family: worksans_m;
-    size: var(--36);
-    color: var(--mork_brun);
+  font-family: worksans_m;
+  size: var(--36);
+  color: var(--mork_brun);
 }
 p {
-    font-family: worksans_r;
-    size: var(--18);
-    color: var(--mork_brun);
+  font-family: worksans_r;
+  size: var(--18);
+  color: var(--mork_brun);
 }
-html, body {height: 100%;}
-        html {display: table;
-        margin: auto;}
-        body {display: table-cell;
-        vertical-align: middle;
-    max-width: 600px;
-background-color: var(--bg_color);}
+html,
+body {
+  height: 100%;
+}
+html {
+  display: table;
+  margin: auto;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 600px;
+  background-color: var(--bg_color);
+}
 
 @media (width >= 600px) {
-    body {
-        max-width: 1000px;
-    }}
+  body {
+    max-width: 1000px;
+  }
+}

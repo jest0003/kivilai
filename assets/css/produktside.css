@@ -31,7 +31,7 @@ body {
 /* Jeries dimensioner fra style.css ligger herover, fordi jeg ikke ville ændre i den originale, men i denne lagde jeg en width ind i html og body, fordi alting blev centreret meget smalt. Jeg ændrede også til vertical-align: top i stedet for middle.*/
 
 main {
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
   font-family: worksans_r;
   color: var(--mork_brun);
   padding: 0 1rem;
@@ -39,7 +39,7 @@ main {
 
 main div,
 div p {
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
   margin-right: 1rem;
   /* padding-right: 1rem; */
 }
@@ -47,22 +47,22 @@ div p {
 h1 {
   font-family: CorGar;
   font-size: 30px;
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
 }
 
 h2 {
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
 }
 
 .breadCrumbs {
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
   padding-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .breadCrumbs a {
   text-decoration: none;
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
   color: var(--mork_brun);
 }
 
@@ -82,7 +82,7 @@ h2 {
 
 .colorPicker img {
   margin: 1rem 0.5rem 1rem 0;
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
 }
 
 button {
@@ -112,7 +112,7 @@ button {
 
 button img {
   height: 1rem;
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
 }
 
 .selected {
@@ -152,7 +152,7 @@ button img {
 }
 
 .gallery span {
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
 }
 
 .gallery div {
@@ -190,7 +190,7 @@ button img {
   display: inline-flex;
   height: 20px;
   cursor: pointer;
-  background-color: var(--bg_color);
+  background-color: #f9f7f0;
   margin-left: 0;
   margin-right: 1rem;
 }
