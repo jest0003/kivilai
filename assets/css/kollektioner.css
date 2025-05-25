@@ -125,7 +125,7 @@ h2 {
     font-family: CorGar;
     font-weight: 600;
     text-align: center;
-    margin: 3em;
+    margin: 2rem;
     font-size: 250%;
     color: var(--mork_brun);
 }
@@ -151,4 +151,17 @@ p {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 800px) {
+  section {
+    grid-template-columns: 1fr;
+    margin: 2rem;
+  }
+  .oculus img, .cesar img {
+    order: -1;
+  }
+  h2 {
+    font-size: 200%;
+  }
 }
