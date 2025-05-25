@@ -35,7 +35,7 @@
   align-items: center;
   text-align: center;
   transition: 0.5s ease;
-  z-index: 1;
+  z-index: 2;
 }
 
 .offScreenMenu.active {
@@ -66,7 +66,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s ease;
-  z-index: 2;
+  z-index: 3;
   margin-top: 0.5rem;
 }
 
@@ -103,7 +103,7 @@ nav {
   font-family: worksans_m;
   font-size: 28px;
   background-color: var(--mork_brun);
-  z-index: 1;
+  z-index: 3;
 }
 
 .offScreenMenu ul li a,
@@ -112,7 +112,7 @@ nav {
   color: #f9f7f0;
   background-color: var(--mork_brun);
   padding: 0.5rem;
-  z-index: 1;
+  z-index: 3;
 }
 
 .headerLogo {
@@ -122,6 +122,7 @@ nav {
   width: 100%;
   height: auto;
   padding: 0;
+  background-color: var(--bg_color);
 }
 
 .headerLogo img {
@@ -203,6 +204,7 @@ nav {
 /* Her begynder Footer CSS. */
 
 footer,
+footer div,
 footer div p {
   background-color: var(--bg_color);
 }
@@ -234,6 +236,10 @@ footer div p {
 
 .footerSignatur img {
   display: none;
+}
+
+.footerContainer_1 {
+  padding-top: 0.5rem;
 }
 
 .footerContainer_2 {
