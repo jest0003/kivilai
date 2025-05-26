@@ -25,6 +25,10 @@
   background-color: transparent;
 } */
 
+main {
+  background-color: #f9f7f0;
+}
+
 .cesar-smykke {
   background-color: transparent;
 }
@@ -39,7 +43,7 @@
 }
 
 button {
-  background-color: #F3EEE1;
+  background-color: #f3eee1;
   color: var(--mork_brun);
   border-radius: 15px;
   border: 2px solid var(--mork_brun);
@@ -49,21 +53,21 @@ button {
   margin-top: 4em;
   text-decoration: none;
   cursor: pointer;
-  transition:  0.6s ease;
+  transition: 0.6s ease;
 }
 
 button:hover {
   background-color: var(--mork_brun);
-  color: #F3EEE1;
-  transition:  0.4s ease;
+  color: #f3eee1;
+  transition: 0.4s ease;
 }
 
 img {
-    transition: transform 0.4s ease;
-    background-color: transparent;
+  transition: transform 0.4s ease;
+  background-color: transparent;
 }
 
-img:hover{
+img:hover {
   transform: scale(1.03);
 }
 
@@ -71,7 +75,6 @@ img:hover{
   display: flex;
   justify-content: center;
 }
-
 
 img {
   width: 90%;
@@ -96,7 +99,7 @@ text {
 }
 
 .dragon-text {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .overlay-oculus {
@@ -122,35 +125,35 @@ text {
 }
 
 h2 {
-    font-family: CorGar;
-    font-weight: 600;
-    text-align: center;
-    margin: 2rem;
-    font-size: 250%;
-    color: var(--mork_brun);
+  font-family: CorGar;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem;
+  font-size: 250%;
+  color: var(--mork_brun);
 }
 
 h3 {
-    font-family: CorGar;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 200%;
-    color: var(--mork_brun);
+  font-family: CorGar;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 200%;
+  color: var(--mork_brun);
 }
 
 p {
-    font-family: worksans_l;
-    text-align: left;
-    margin-left: 2em;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    color: var(--mork_brun);
-    line-height: 1.5em;
+  font-family: worksans_l;
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  color: var(--mork_brun);
+  line-height: 1.5em;
 }
 
 section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 800px) {
@@ -158,7 +161,8 @@ section {
     grid-template-columns: 1fr;
     margin: 2rem;
   }
-  .oculus img, .cesar img {
+  .oculus img,
+  .cesar img {
     order: -1;
   }
   h2 {

@@ -1,0 +1,19 @@
+button {
+  background-color: rgba(82, 42, 19, 0);
+  color: var(--mork_brun);
+  border-radius: 15px;
+  border: 2px solid var(--mork_brun);
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  margin: 1rem 0;
+  margin-top: 4em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+button:hover {
+  background-color: var(--mork_brun);
+  color: #f3eee1;
+  transition: 0.4s ease;
+}
