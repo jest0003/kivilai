@@ -40,7 +40,7 @@ ol {
 ul li,
 ol li {
   font-family: "worksans_r";
-  font-size: var(--18);
+  font-size: var(--h18);
   color: var(--mork_brun);
 }
 
