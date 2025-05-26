@@ -18,7 +18,7 @@ main {
 }
 
 .spanBaggrund_1 {
-  background-image: url(/assets/img/maane_hvid.webp);
+  background-image: url(../img/maane_hvid.webp);
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: contain;
@@ -27,7 +27,7 @@ main {
 }
 
 .spanBaggrund_2 {
-  background-image: url(/assets/img/maane_hvid.webp);
+  background-image: url(../img/maane_hvid.webp);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0;
@@ -35,7 +35,7 @@ main {
 }
 
 .spanBaggrund_3 {
-  background-image: url(/assets/kamilla-images/sand.webp);
+  background-image: url(../kamilla-images/sand.webp);
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: contain;
