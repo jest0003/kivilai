@@ -7,10 +7,10 @@
   --bg_color: #f3eee1;
 
   /*tekst størrelse*/
-  --96_CG: 96px;
-  --48: 48px;
-  --36: 36px;
-  --18: 18px;
+  --96_CG: 40px;
+  --48: 26px;
+  --36: 20px;
+  --18: 16px;
 }
 @font-face {
   font-family: CorGar;
@@ -34,22 +34,22 @@
 }
 * h1 {
   font-family: CorGar;
-  size: var(--96_CG);
+  font-size: var(--96_CG);
   color: var(--mork_brun);
 }
 h2 {
-  font-family: worksans_b;
-  size: var(--48);
+  font-family: worksans_m;
+  font-size: var(--48);
   color: var(--mork_brun);
 }
 h3 {
   font-family: worksans_m;
-  size: var(--36);
+  font-size: var(--36);
   color: var(--mork_brun);
 }
 p {
   font-family: worksans_r;
-  size: var(--18);
+  font-size: var(--18);
   color: var(--mork_brun);
 }
 html,
