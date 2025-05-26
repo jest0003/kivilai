@@ -43,7 +43,7 @@
 }
 
 nav {
-  padding: 0.5 1em;
+  padding: 0.5rem 1rem;
   display: flex;
   background-color: var(--bg_color);
 }
@@ -278,7 +278,7 @@ footer div p {
 
   .footerInformation h4,
   .footerKontakt h4 {
-    font-size: var(--36);
+    font-size: var(--h36);
     color: var(--mork_brun);
     margin-top: 1em;
     margin-bottom: 1em;
